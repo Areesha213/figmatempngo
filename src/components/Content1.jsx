@@ -21,27 +21,27 @@ const Content1 = ({ className = "" }) => {
             </h1>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full text-base text-secondary-text">
-            <div className="w-[594px] pl-24  relative leading-[160%] inline-block shrink-0 max-w-full ">
+            <div className="w-[594px] pl-24 relative leading-[160%] inline-block shrink-0 max-w-full">
               <p className="m-0">
                 We work for the development of the Bastis in the Varanasi region
                 of UP, helping in education, health and finance.
               </p>
               <p className="m-0">
-                We continuously organizes events and awareness sessions in those
+                We continuously organize events and awareness sessions in those
                 areas, making them aware of government schemes, scholarships and
-                health. We aims to uplift those underprivileged sections of
+                health. We aim to uplift those underprivileged sections of
                 society.
               </p>
             </div>
-            <div className="flex flex-col max-w-full ">
-              <img
-                className="w-[480px] relative rounded-xl max-h-full object-cover max-w-full mq1300:flex-1"
-                loading="lazy"
-                alt=""
-                src={img2}
-              />
-            </div>
           </div>
+        </div>
+        <div className="flex flex-col max-w-full">
+          <img
+            className="w-[480px] h-auto relative rounded-xl object-cover max-w-full mq1300:flex-1"
+            loading="lazy"
+            alt=""
+            src={img2}
+          />
         </div>
       </div>
     </section>

@@ -33,7 +33,7 @@ export default function HomePage() {
      <main >
       <h1 className='text-white font-roboto font-bold text-6xl m-20 p-20'>Nurturing society <br></br>
       for a better tomorrow</h1>
-      <Link to="/what-we-do" className="bg-gray-100 font-semibold text-black px-4 py-2 m-40 rounded hover:bg-blue-600 no-underline leading-loose">
+      <Link to="/what-we-do" className="bg-gray-100 font-semibold text-black px-4 py-2 ml-40 rounded hover:bg-blue-600 no-underline leading-loose">
           What We Do
         </Link>
         <div className='mt-80 p-7 flex justify-center align-middle '>

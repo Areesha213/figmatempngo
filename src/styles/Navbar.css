@@ -1,0 +1,48 @@
+/* src/components/Navbar.css */
+.navbar {
+    background: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    height: 114px;
+    width: 130px;
+    overflow: hidden;
+  }
+  
+  .navbar .menu {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .navbar .menu-item {
+    font-size: 1.25rem;
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  .navbar .menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .navbar .menu-item a:hover {
+    color: #718096; /* gray-900 */
+  }
+  
+  .navbar .donation {
+    background: #6b46c1 !important; /* purple-600 */
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .navbar .donation:hover {
+    background: #2563eb; /* blue-600 */
+  }
+  

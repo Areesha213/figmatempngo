@@ -1,0 +1,25 @@
+.card-gallery {
+    display: flex;
+    flex-direction: column;
+     /* Tailwind's gap-7 */
+  }
+  
+  @media (min-width: 640px) {
+    .card-gallery {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .card-container {
+      width: 50%;
+      padding: 0.5rem; /* Tailwind's p-2 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .card-container {
+      width: 25%;
+    }
+  }
+  

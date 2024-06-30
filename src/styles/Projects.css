@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .project{
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  }

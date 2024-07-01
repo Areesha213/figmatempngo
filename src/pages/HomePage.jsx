@@ -60,7 +60,7 @@ export default function HomePage() {
     <section
       className={`self-stretch flex flex-row items-start justify-center py-0 pr-[23px] pl-5 box-border max-w-full shrink-0 text-left text-29xl text-primary-text font-h2 `}
     >
-     {/*  <div className="w-[1283px] flex flex-col items-end justify-start gap-[64px] max-w-full mq450:gap-[16px] mq750:gap-[32px]">
+      <div className="w-[1283px] flex flex-col items-end justify-start gap-[64px] max-w-full mq450:gap-[16px] mq750:gap-[32px]">
         <div className="self-stretch flex flex-row items-start justify-start gap-[96px] max-w-full mq450:gap-[24px] mq750:gap-[48px] mq1050:flex-wrap">
           <div className="flex-1 flex flex-col items-start justify-start gap-[74px] min-w-[460px] max-w-full mq450:gap-[18px] mq750:gap-[37px] mq750:min-w-full">
             <div className="flex flex-row items-start justify-start pt-0 px-0 pb-[30px] mt-9">
@@ -111,7 +111,7 @@ export default function HomePage() {
               src={img3}
             />
           </div>
-        </div>*/}
+        </div>
         <Supporters  />
         
       </div>

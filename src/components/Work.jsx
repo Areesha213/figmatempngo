@@ -6,9 +6,9 @@ import PropTypes from "prop-types";
 const Work = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[61.6px] box-border max-w-full shrink-0 text-left text-29xl text-primary-text font-h2 mq750:pb-[26px] mq750:box-border mq1050:pb-10 mq1050:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[61.6px] box-border max-w-full shrink-0 text-left text-29xl text-primary-text font-h2  mq750:box-border  mq1050:box-border ${className}`}
     >
-      <div className="flex-1 bg-ghostwhite flex flex-row items-end justify-center pt-24 pb-[42.8px] pr-[75px] pl-[110px] box-border max-w-full mq450:pl-5 mq450:pt-10 mq450:pb-5 mq450:box-border mq750:gap-[20px] mq750:pl-[55px] mq750:pr-[37px] mq750:box-border mq1050:pt-[62px] mq1050:pb-7 mq1050:box-border mq1225:flex-wrap">
+      <div className="flex-1 bg-ghostwhite flex flex-row items-end justify-center pt-24 pb-[42.8px] pr-[75px] pl-[110px] box-border max-w-full mq450:pl-5 mq450:pt-10 mq450:pb-5 mq450:box-border mq750:gap-[20px] mq750:pl-[55px]  mq1050:box-border mq1225:flex-wrap">
         <div className="h-[901px] relative bg-ghostwhite hidden max-w-full" />
         <div className="flex-1 flex flex-col items-start justify-start gap-[32.3px] min-w-[517px] max-w-full mq450:gap-[16px] mq750:min-w-full">
           <img

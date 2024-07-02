@@ -28,10 +28,10 @@ const Work = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-center max-w-full text-5xl">
+          <div className="self-stretch flex flex-row items-start justify-center max-w-full text-5xl mq450:text-base ">
             <div className=" flex items-start justify-center max-w-full mq750:flex-wrap">
               <div className="h-[442px] relative box-border z-[1] border-r-[1px] border-solid border-border mq750:w-full mq750:h-px" />
-              <div className="flex-1 flex flex-col items-start justify-start min-w-[445px] max-w-full ">
+              <div className="flex-1 flex flex-col items-start justify-start min-w-[445px] max-w-full mq450:ml-14">
                 <div className="self-stretch flex flex-col items-start justify-start gap-[15.3px] max-w-full ">
                   <div className="flex flex-row items-center justify-start gap-[24px]">
                     <img

@@ -56,14 +56,15 @@ export default function HomePage() {
      </main>
     </div>
 
-   <div>
+   
+      <div>
         <section
           className={`self-stretch flex flex-row items-start justify-center py-0 pr-[23px] pl-5 box-border max-w-full shrink-0 text-left text-primary-text font-h2 `}
         >
           <div className="flex flex-col items-end justify-start  max-w-full ">
-            <div className="self-stretch flex flex-row items-start justify-start gap-[96px] max-w-full  mq1050:flex-wrap">
+            <div className="self-stretch flex flex-row items-start justify-start gap-[96px] mq450:gap-0 max-w-full  mq1050:flex-wrap">
               <div className="flex-1 flex flex-col items-start justify-start gap-[20px] max-w-full ">
-                <div className="flex flex-row items-start justify-start pt-0 px-0 pb-[30px] mt-9">
+                <div className="flex flex-row items-start justify-start pt-0 px-0 pb-[30px] mq450:pb-5 mt-9">
                   <img
                     className="h-[19px] w-[246px] relative object-contain"
                     loading="lazy"
@@ -73,7 +74,7 @@ export default function HomePage() {
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-end max-w-full">
                   <div className=" flex flex-col items-start justify-start max-w-full">
-                    <div className="self-stretch flex flex-row items-start justify-start pr-0 pl-px pb-4 box-border max-w-full">
+                    <div className="self-stretch flex flex-row items-start justify-start pr-0 pl-px pb-4 mq450:pb-0 box-border max-w-full">
                       <h1 className="m-0 h-[116px] text-5xl md:text-10xl leading-[120%] font-normal font-inherit inline-block max-w-full  mq450:text-xl mq450:font-bold">
                         We help underprivileged sections of society to uplift
                       </h1>
@@ -93,9 +94,9 @@ export default function HomePage() {
                     </div>
                   </div>
                 </div>
-                <div className="w-[346px] flex flex-row items-start justify-start  box-border max-w-full mq450:mt-40">
+                <div className="w-[346px] flex flex-row items-start justify-start  box-border max-w-full mq450:mt-16 mq450:mr-0 mq450:ml-0">
                   <button
-                    className="cursor-pointer [border:none] px-8 bg-ghostwhite [backdrop-filter:blur(80px)] rounded flex flex-row items-start justify-start whitespace-nowrap hover:bg-lightgray"
+                    className="cursor-pointer [border:none]  bg-ghostwhite [backdrop-filter:blur(80px)] rounded flex flex-row items-start justify-start whitespace-nowrap hover:bg-lightgray"
                     onClick={onSecondaryButtonClick}
                   >
                     <a className="[text-decoration:none] text-base font-medium font-h2 text-black1 text-right bg-gray-200 p-4 rounded">
@@ -104,7 +105,7 @@ export default function HomePage() {
                   </button>
                 </div>
               </div>
-              <div className="h-[588.3px] flex flex-col items-start justify-start mt-32 pt-2.5 px-0 pb-0 box-border min-w-[480px] max-w-full mq750:min-w-full mq1050:flex-1">
+              <div className="h-[588.3px] flex flex-col items-start justify-start  pt-2.5 px-0 pb-0 box-border min-w-[480px] max-w-full mq750:min-w-full mq1050:flex-1">
                 <img
                   className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full mq1050:self-stretch mq1050:w-auto"
                   loading="lazy"

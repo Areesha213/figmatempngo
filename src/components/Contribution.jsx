@@ -49,7 +49,7 @@ const Contribution = ({
       >
         <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 rounded-xl bg-gray-800 opacity-70 z-[1]" />
         <h1
-          className="m-0 w-[631px] h-[116px] relative text-5xl leading-[120%] font-normal text-gray-200 inline-block max-w-full z-[2] mq450:text-10xl mq450:leading-[35px] mq750:text-19xl mq750:leading-[46px]"
+          className="m-0 w-[631px] h-[116px] relative text-5xl leading-[120%] font-normal text-gray-200 inline-block max-w-full z-[2] mq450:text-2xl mq450:leading-[35px] mq750:text-4xl mq750:leading-[46px]"
           style={youCanContributeStyle}
         >
           You can contribute to make the society develop!

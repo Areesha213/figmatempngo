@@ -6,7 +6,7 @@ import img1 from "../assets/image4@2x.png"
 const FrameComponent1 = ({ className = "" }) => {
   return (
     <section
-      className={`w-[1476px] m-11 flex flex-row items-start justify-center pt-0 px-5 pb-24 box-border max-w-full text-left text-29xl text-primary-text font-h2 mq1050:pb-[62px] mq1050:box-border mq750:pb-10 mq750:box-border ${className}`}
+      className={` m-11 flex flex-row items-start justify-center pt-0 px-5 pb-24 box-border max-w-full text-left text-29xl text-primary-text font-h2 mq1050:pb-[62px] mq1050:box-border mq750:pb-10 mq750:box-border ${className}`}
     >
       <div className="w-[768px] flex flex-col items-start justify-start gap-[32px] max-w-full mq450:gap-[16px]">
         <h1 className="m-0 relative text-4xl leading-[58px] font-normal font-inherit inline-block min-w-[128px] mq1050:text-19xl mq1050:leading-[46px] mq450:text-10xl mq450:leading-[35px]">

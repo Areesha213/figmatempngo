@@ -23,7 +23,7 @@ const FrameComponent41 = ({ className = "" }) => {
                 alt=""
                 src={img1}
               />
-              <h1 className="m-0 self-stretch relative text-6xl leading-[120%] font-normal font-inherit mq1050:text-26xl mq1050:leading-[54px] mq450:text-15xl mq450:leading-[40px]">
+              <h1 className="m-0 self-stretch relative text-6xl leading-[120%] font-normal font-inherit mq1050:text-26xl mq1050:leading-[54px] mq450:text-3xl mq450:leading-[40px]">
                 Education Awareness Program 2023
               </h1>
             </div>

@@ -30,30 +30,35 @@ export default function HomePage() {
     style={{ backgroundImage: `url(${bg})` }} >
       
       <Navbar />
-     <main >
-      <h1 className='text-white font-roboto font-bold text-6xl m-20 p-20'>Nurturing society <br></br>
-      for a better tomorrow</h1>
-      <Link to="/what-we-do" className="bg-gray-100 font-semibold text-black px-4 py-2 ml-40 rounded hover:bg-blue-600 no-underline leading-loose">
-          What We Do
-        </Link>
-        <div className='mt-80 p-7 flex justify-center align-middle '>
-        <div className="w-[1381px] flex flex-row items-start justify-end py-0 px-[25px] box-border max-w-full text-right text-lg">
-          <div className="flex-1 flex flex-row flex-wrap items-start justify-start gap-[35px] max-w-full">
-            <div className="relative font-extrabold z-[1] text-white">
-              1923 Workshops Conducted
-            </div>
-            <div className="flex-1 flex flex-col items-start justify-start pt-[14.1px] pb-0 pr-[9px] pl-0 box-border min-w-[567px] max-w-full mq750:min-w-full">
-              <div className="self-stretch h-[3px] relative [backdrop-filter:blur(30px)] box-border z-[1] border-t-[3px] border-solid border-border" />
-            </div>
-            <div className="flex flex-col items-start justify-start pt-[1.1px] px-0 pb-0">
-              <div className="relative font-extrabold z-[1] text-white">
-                5840 donations collected
+     <main>
+          <h1 className="text-white font-roboto font-bold text-6xl  ml-20 pb-2 pt-24 mq450:ml-2 mq450:text-3xl mq750:text-2xl mq750:ml-5">
+            Nurturing society <br></br>
+            for a better tomorrow
+          </h1>
+          <Link
+            to="/what-we-do"
+            className="bg-gray-100 font-semibold text-black px-4 py-2 ml-20 mt-9 rounded hover:bg-blue-600 no-underline leading-loose mq450:ml-3 mq750:ml-5"
+          >
+            What We Do
+          </Link>
+          <div className="mt-80 p-7 flex justify-center align-middle mq450:p-0 mq520:p-1 mq1225:p-0">
+            <div className=" flex flex-row items-start justify-start py-0 px-[25px] box-border max-w-full text-right text-lg mq450:px-0 mq520:px-0">
+              <div className="flex-1 flex flex-row flex-wrap items-start justify-start gap-[35px] max-w-full">
+                <div className="relative font-extrabold z-[1] text-white">
+                  1923 Workshops Conducted
+                </div>
+                <div className="flex-1 flex flex-col items-start justify-start pt-[14.1px] pb-0 pr-[9px] pl-0 box-border min-w-[567px] max-w-full mq750:min-w-full">
+                  <div className="self-stretch h-[3px] relative [backdrop-filter:blur(30px)] box-border z-[1] border-t-[3px] border-solid border-border" />
+                </div>
+                <div className="flex flex-col items-start justify-start pt-[1.1px] px-0 pb-0">
+                  <div className="relative font-extrabold z-[1] text-white">
+                    5840 donations collected
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        </div>
-     </main>
+        </main>
     </div>
 
    

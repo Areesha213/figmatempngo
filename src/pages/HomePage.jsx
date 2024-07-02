@@ -57,7 +57,7 @@ export default function HomePage() {
     </div>
 
    
-      <div>
+       <div>
         <section
           className={`self-stretch flex flex-row items-start justify-center py-0 pr-[23px] pl-5 box-border max-w-full shrink-0 text-left text-primary-text font-h2 `}
         >
@@ -75,7 +75,7 @@ export default function HomePage() {
                 <div className="self-stretch flex flex-row items-start justify-end max-w-full">
                   <div className=" flex flex-col items-start justify-start max-w-full">
                     <div className="self-stretch flex flex-row items-start justify-start pr-0 pl-px pb-4 mq450:pb-0 box-border max-w-full">
-                      <h1 className="m-0 h-[116px] text-5xl md:text-10xl leading-[120%] font-normal font-inherit inline-block max-w-full  mq450:text-xl mq450:font-bold">
+                      <h1 className="m-0 h-[116px] text-5xl   leading-[120%] font-normal font-inherit inline-block max-w-full  mq450:text-xl mq450:font-bold mq1050:text-xl mq1100:text-xl mq1125:text-xl mq800:text-xl mq1150:text-xl  ">
                         We help underprivileged sections of society to uplift
                       </h1>
                     </div>

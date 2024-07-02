@@ -15,7 +15,7 @@ const FrameComponent4 = ({ className = "" }) => {
         />
         <div className="self-stretch flex flex-row items-start justify-end max-w-full">
           <div className="w-[1184px] flex flex-row items-start justify-start gap-[64px] max-w-full lg:gap-[32px] mq750:gap-[16px] mq1050:flex-wrap">
-            <h1 className="m-0 flex-1 relative text-5xl leading-[120%] font-normal font-inherit inline-block min-w-[406px] max-w-full mq450:text-15xl mq450:leading-[40px] mq750:min-w-full mq1050:text-26xl mq1050:leading-[54px]">
+            <h1 className="m-0 flex-1 relative text-5xl leading-[120%] font-normal font-inherit inline-block min-w-[406px] max-w-full mq450:text-10xl mq450:leading-[55px] mq750:min-w-full mq1050:text-26xl mq1050:leading-[54px]">
               We are a nonprofit team working worldwide
             </h1>
             <div className="w-[496px] flex flex-col items-start justify-start pt-4 px-0 pb-0 box-border min-w-[496px] max-w-full text-xl mq750:min-w-full mq1050:flex-1">

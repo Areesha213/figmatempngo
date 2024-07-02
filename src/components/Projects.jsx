@@ -17,7 +17,7 @@ const Projects = ({ className = "" }) => {
 
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[61.6px] box-border max-w-full shrink-0 text-left text-29xl text-primary-text font-h2 mq450:pb-[26px] mq450:box-border mq1050:pb-10 mq1050:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[61.6px] box-border max-w-full shrink-0 text-left  text-primary-text font-h2 mq450:pb-[26px] mq450:box-border mq1050:pb-10 mq1050:box-border ${className}`}
     >
       <div className="w-[1280px] flex flex-col items-start justify-start gap-[65.6px] max-w-full mq450:gap-[16px] mq750:gap-[33px]">
         <div className="w-[749px] flex flex-col items-start justify-start gap-[32px] max-w-full mq750:gap-[16px]">
@@ -28,13 +28,13 @@ const Projects = ({ className = "" }) => {
             src={img1}
           />
           <div className="self-stretch flex flex-row items-start justify-end max-w-full pb-20">
-            <h1 className="m-0 h-[174px] w-[640px] relative text-5xl leading-[120%] font-normal font-inherit inline-block shrink-0 max-w-full ">
+            <h1 className="m-0  relative text-5xl leading-[120%] font-normal font-inherit inline-block shrink-0 max-w-full mq450:text-base mq520:text-lg ">
               We are Creating sustainable developed society, for everyone and
               forever.
             </h1>
           </div>
         </div>
-        <div className="project self-stretch grid flex-row items-start justify-start gap-[23.5px] max-w-full  sm:flex grid-cols-[repeat(3,_minmax(308px,_1fr))] text-1xl text-white ">
+        <div className="project self-stretch grid flex-row items-start justify-start gap-[23.5px] max-w-full  sm:flex grid-cols-[repeat(3,_minmax(308px,_1fr))] text-1xl text-white">
           <Project
             image={img2}
             missionDevelopedVillages="Mission: Developed Villages"

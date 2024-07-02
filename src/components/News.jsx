@@ -4,9 +4,9 @@ import CardGallery from "./CardGallery";
 function News() {
   return (
     <div>
-      <div className="w-fit  flex flex-row items-start justify-end py-0 px-[25px] box-border max-w-full text-right text-lg">
+      <div className="w-fit mt-9  flex flex-row items-start justify-end py-0 px-[25px] box-border max-w-full text-right text-lg">
         <div className="flex-1 flex flex-row flex-wrap items-start justify-start gap-[35px] max-w-full">
-          <div className="relative font-normal text-3xl z-[1] text-black">
+          <div className="relative font-normal text-3xl z-[1] text-black ">
             Read Our News
           </div>
           <div className="flex-1 flex flex-col items-start justify-start pt-[14.1px] pb-0 pr-[9px] pl-0 box-border min-w-[567px] max-w-full mq750:min-w-full">

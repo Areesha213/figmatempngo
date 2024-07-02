@@ -37,7 +37,7 @@ const CardGallery = () => {
   return (
     <div className="card-gallery">
       {cardsData.map((card, index) => (
-        <div key={index} className="card-container">
+        <div key={index} className="card-container mb-3">
           <Card
             title={card.title}
             content={card.content}

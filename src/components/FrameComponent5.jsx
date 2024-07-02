@@ -35,7 +35,7 @@ const FrameComponent5 = ({ className = "" }) => {
           <div className="self-stretch bg-gray-200 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-ghostwhite flex flex-row flex-wrap items-end justify-start pt-[25px] pb-[31.5px] pr-6 pl-[34px] box-border gap-[10px] max-w-full mq1050:pl-[17px] mq1050:pr-3 mq1050:box-border">
             <div className="w-[768px] relative rounded bg-ghostwhite hidden max-w-full" />
             <div className="flex flex-col items-start justify-start">
-              <div className="relative text-4xl leading-[29px] font-medium inline-block min-w-[55px] z-[1] mq1050:text-10xl mq1050:leading-[23px] mq450:text-5xl mq450:leading-[17.5px]">
+              <div className="relative text-4xl leading-[29px] font-medium inline-block min-w-[55px] z-[1] mq1050:text-10xl mq1050:leading-[23px] mq450:text-2xl mq450:leading-[17.5px]">
                 23
               </div>
               <div className="relative text-sm tracking-[2px] uppercase font-medium inline-block min-w-[41px] z-[1]">
@@ -70,7 +70,7 @@ const FrameComponent5 = ({ className = "" }) => {
             <div className="h-[95.5px] w-[768px] relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-lg bg-ghostwhite hidden max-w-full" />
             <div className="flex flex-col items-start justify-end pt-0 px-0 pb-0.25">
               <div className="flex flex-col items-start justify-start">
-                <div className="relative leading-[29px] text-4xl font-medium inline-block min-w-[55px] z-[1] mq1050:text-10xl mq1050:leading-[23px] mq450:text-5xl mq450:leading-[17.5px]">
+                <div className="relative leading-[29px] text-4xl font-medium inline-block min-w-[55px] z-[1] mq1050:text-10xl mq1050:leading-[23px] mq450:text-2xl mq450:leading-[17.5px]">
                   25
                 </div>
                 <div className="relative text-sm tracking-[2px] uppercase font-medium inline-block min-w-[41px] z-[1]">

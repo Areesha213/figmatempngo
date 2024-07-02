@@ -23,11 +23,11 @@ function Donation() {
     <div>
       <Navbar1 className="!bg-gray-200" />
       <Main />
-      <section className="self-stretch m-9 flex flex-row items-start justify-center pt-0 px-5 pb-24 box-border max-w-full text-left text-29xl text-primary-text font-h2 mq750:pb-[62px] mq750:box-border">
+       <section className="self-stretch m-9 flex flex-row items-start justify-center pt-0 px-5 pb-24 box-border max-w-full text-left text-29xl text-primary-text font-h2 mq750:pb-[62px] mq750:box-border">
         <div className="w-[1280px] flex flex-col items-start justify-start gap-[95.5px] max-w-full mq750:gap-[48px] mq450:gap-[24px]">
           <div className="self-stretch flex flex-row items-start justify-between max-w-full gap-[20px] mq1250:flex-wrap">
             <div className="w-[592px] flex flex-col items-start justify-start gap-[24px] max-w-full">
-              <h1 className="m-0 self-stretch relative text-5xl leading-[120%] font-normal font-inherit mq750:text-19xl mq750:leading-[46px] mq450:text-10xl mq450:leading-[35px]">
+              <h1 className="m-0 self-stretch relative text-5xl leading-[120%] font-normal font-inherit mq750:text-3xl mq750:leading-[46px] mq450:text-2xl mq450:leading-[35px]">
                 How you can contribute to develop villages
               </h1>
               <div className="self-stretch relative text-base leading-[160%] text-secondary-text">
@@ -71,7 +71,7 @@ function Donation() {
           </div>
           <div className="self-stretch h-px relative box-border border-t-[3px] border-solid border-primary-text" />
           <div className="self-stretch m-9 flex flex-row items-start justify-between max-w-full gap-[20px] text-base text-secondary-text mq1250:flex-wrap">
-            <h1 className="m-0 w-[374px] relative text-5xl leading-[120%] font-normal font-inherit text-primary-text inline-block shrink-0 max-w-full mq750:text-19xl mq750:leading-[46px] mq450:text-10xl mq450:leading-[35px]">
+            <h1 className="m-0 w-[374px] relative text-5xl leading-[120%] font-normal font-inherit text-primary-text inline-block shrink-0 max-w-full mq750:text-3xl mq750:leading-[46px] mq450:text-2xl mq450:leading-[35px]">
               How we use your donation
             </h1>
             <div className="h-[156px] w-[338px] relative leading-[160%] inline-block shrink-0 max-w-full">

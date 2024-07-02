@@ -19,10 +19,10 @@ const Work = ({ className = "" }) => {
           />
           <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[25px] box-border max-w-full">
             <div className=" flex flex-col items-start justify-start gap-[16px] max-w-full">
-              <h1 className="text-5xl">
+              <h1 className="text-5xl mq450:text-lg">
                 We organizes events and awareness sessions
               </h1>
-              <div className="self-stretch h-[52px] relative text-base text-secondary-text inline-block shrink-0 z-[1]">
+              <div className="self-stretch h-[52px] relative text-base text-secondary-text inline-block shrink-0 z-[1] mq450:text-xs">
                 Works for the development of the bastis in the Varanasi region
                 of UP, helping in education, health and finance.
               </div>
@@ -40,9 +40,9 @@ const Work = ({ className = "" }) => {
                       alt=""
                       src={img2}
                     />
-                    <h3 className="m-0 relative text-2xl font-medium leading-loose">{`Runs Educational Programmes `}</h3>
+                    <h3 className="m-0 relative text-2xl font-medium leading-loose mq450:text-sm">{`Runs Educational Programmes `}</h3>
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text">
+                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text mq450:text-xs">
                     <div className="w-3/4 pl-14 relative leading-[160%] inline-block shrink-0 max-w-full z-[1]">
                       Eradicating poverty through generation of employment
                       opportunities, income generating activities, providing
@@ -59,10 +59,10 @@ const Work = ({ className = "" }) => {
                       alt=""
                       src={img2}
                     />
-                    <h3 className="m-0 relative text-2xl font-medium leading-loose">{`Skills Training `}</h3>
+                    <h3 className="m-0 relative text-2xl font-medium leading-loose mq450:text-sm">{`Skills Training `}</h3>
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text">
-                    <div className="w-3/4 pl-14 relative leading-[160%] inline-block shrink-0 max-w-full z-[1]">
+                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text mq450:text-xs">
+                    <div className="w-3/4 pl-14 relative leading-[160%] inline-block shrink-0 max-w-full z-[1] ">
                       Eradicating poverty through generation of employment
                       opportunities, income generating activities, providing
                       skill based training, imparting new technology in
@@ -71,16 +71,16 @@ const Work = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[15.3px] max-w-full shrink-0">
-                  <div className="flex flex-row items-center justify-start gap-[24px]">
+                  <div className="flex flex-row items-center justify-start gap-[24px] ">
                     <img
                       className="h-7 w-7 relative overflow-hidden shrink-0 min-h-[28px] z-[2]"
                       loading="lazy"
                       alt=""
                       src={img2}
                     />
-                    <h3 className="m-0 relative text-2xl font-medium leading-loose">{`Activites and Awareness Camps `}</h3>
+                    <h3 className="m-0 relative text-2xl font-medium leading-loose mq450:text-sm">{`Activites and Awareness Camps `}</h3>
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text">
+                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text mq450:text-xs">
                     <div className="w-3/4 pl-14 relative leading-[160%] inline-block shrink-0 max-w-full z-[1]">
                       Eradicating poverty through generation of employment
                       opportunities, income generating activities, providing
@@ -97,9 +97,9 @@ const Work = ({ className = "" }) => {
                       alt=""
                       src={img2}
                     />
-                    <h3 className="m-0 relative text-2xl leading-loose font-medium ">{`Conducts Workshops `}</h3>
+                    <h3 className="m-0 relative text-2xl leading-loose font-medium  mq450:text-sm">{`Conducts Workshops `}</h3>
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text">
+                  <div className="self-stretch flex flex-row items-start justify-start py-0 px-px box-border max-w-full text-base text-secondary-text mq450:text-xs">
                     <div className="w-3/4 pl-14 relative leading-[160%] inline-block shrink-0 max-w-full z-[1]">
                       Initiating self-employment ventures (for men and women)
                       and organizing leadership/personality development
@@ -112,9 +112,9 @@ const Work = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="h-[800px] w-[480px] flex flex-col items-start justify-end pt-14 px-5 pb-[18.6px] box-border min-w-[480px] ">
+        <div className="h-[800px] w-[480px] flex flex-col items-start justify-end pt-14 px-5 pb-[18.6px] box-border  mq450:h-[400px] mq450:w-[400px] mq450:px-0">
           <img
-            className="self-stretch flex-1 relative rounded-xl max-w-full overflow-hidden max-h-full object-cover mr-9"
+            className="self-stretch flex-1 relative rounded-xl max-w-full overflow-hidden max-h-full object-cover mr-9 mq450:mr-0 "
             loading="lazy"
             alt=""
             src={img3}

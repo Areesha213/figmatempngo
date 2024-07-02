@@ -42,11 +42,11 @@ const Project = ({
         style={tintStyle}
       />
       <div className="self-stretch flex flex-col items-start justify-start gap-[16px] z-[2]">
-        <h2 className="m-0 self-stretch h-[84px] relative text-3xl font-bold">
+        <h2 className="m-0 self-stretch h-[84px] relative text-3xl font-bold mq1125:text-xl">
           {missionDevelopedVillages}
         </h2>
         <div
-          className="self-stretch h-[52px] relative text-base leading-[160%] inline-block"
+          className="self-stretch h-[52px] relative text-base leading-[160%] inline-block mq1125:leading-tight "
           style={organizedActivitiesAndStyle}
         >
           {organizedActivitiesAndEve}
